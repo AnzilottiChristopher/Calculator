@@ -47,7 +47,7 @@ public class Calculator
             }
             finalVal = firstNum / secondNum;
             System.out.printf("The quotient is %f", finalVal);
-        }
+        } //Change for screenshot
 
         
         scan.close();
