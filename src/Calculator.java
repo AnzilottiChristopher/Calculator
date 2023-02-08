@@ -38,7 +38,13 @@ public class Calculator
             System.out.printf("The product is %f", finalVal);
         }
         if(check == 4)
-        {
+        {   
+            //Check for divide by zero
+            if(secondNum == 0)
+            {
+                System.out.println("Error: Divide by Zero");
+                System.exit(0);
+            }
             finalVal = firstNum / secondNum;
             System.out.printf("The quotient is %f", finalVal);
         }
